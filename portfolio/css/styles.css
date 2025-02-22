@@ -1,0 +1,128 @@
+/*
+Name: Zoe Barger
+Date: 02/16/2025
+File name: styles.css
+*/
+
+/* CSS reset styles rule */
+body, header, nav, main, footer, img, h1, h2, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+    color: white;
+  }
+
+  /* Style rules for header */
+  h1 {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    padding: 2%;
+    font-size: 5em;
+    color: white;
+  }
+  h2 {
+    color: #f9b625;
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'Courier New', monospace;
+    padding: 1% 2%;
+  }
+
+  /* Style rules for body and images */
+  body {
+    background-color: black;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    padding: 2%;
+  }
+
+  /* Style rules for navigation area */
+  nav {
+    background-color: #dd7d1b; 
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center; 
+  }
+  
+  nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+  }
+  nav li a {
+    display: block; 
+    color: black; 
+    padding: 0.5em 2em;
+    text-decoration: none; 
+  }
+
+  /* Style rules for main content */
+  main {
+    padding: 2%;
+    font-family: 'Courier New', monospace;
+  }
+
+ main p {
+    font-size: 1.25em;
+ }
+
+ main ul {
+    list-style: square;
+ }
+  
+ /* Style rules for class and id selectors */
+ .link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+ }
+
+ #contact {
+    text-align: center;
+ }
+
+ /* Style rules for footer content */
+ footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #666062;
+    color: white;
+    padding: 1% 0;
+    font-family: 'Courier New', monospace;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* Style rules for grid layout */
+  .container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #3eb1c8;
+    padding: 10px;
+    box-shadow: 10px 10px #007398;
+    color: white;
+  }
+  .container > div {
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .headings {
+    font-weight: bold;
+  }
+
+  
