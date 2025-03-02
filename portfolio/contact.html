@@ -21,13 +21,36 @@ Date: 02/08/2025 -->
             <li><a href="projects.html">Projects</a></li></ul>
     </nav>
     <header>
-        <h1>Zoe Barger</h1>
-        <figure><img src="images/zoe.png" alt="zoe wearing KU Leuven shirt and posing with a salad"></figure>
-        <figcaption><h2>"Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit" - Matthew 28:19</h2></figcaption>
+        <h1>Contact</h1>
     </header>
     <!-- Use the main area to add the main content to the webpage -->
     <main>
-        <p></p>
+        <article id="form">
+        <form class="grid">
+            <fieldset>
+            <legend>Contact Me!</legend>
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" id="Name">
+            
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            
+            <label for="message">Message:</label>
+            <input type="text" name="message" id="message">
+            </fieldset>
+        
+            <input type="submit" class="btn" id="submitButton" value="Submit">
+            <script>
+                document.addEventListener(
+                      'DOMContentLoaded', function () {
+                    document.getElementById('submitButton').
+                    addEventListener('click', function () {
+                        alert('Submit button clicked!');
+                    });
+                });
+            </script>
+        </form>
+        </article>
         <article id="info">
             <ul>
                 <li>School: Point University</li>
