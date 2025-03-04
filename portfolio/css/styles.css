@@ -248,5 +248,9 @@ File name: styles.css
       width: 50%;
       margin: 0 auto;
   }
-  }
+}
+.icons {
+  display: inline-block;
+  width: 2%;
+}
 
