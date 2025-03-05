@@ -227,8 +227,7 @@ File name: styles.css
   /* Styles for tablet  */ 
   @media only screen and (min-width: 600px) {
 	form {
-		width: 80%;
-		margin: 0 auto; 
+		width: 80%; 
 	  }
   }
   /* Styles for mobile */
@@ -246,10 +245,9 @@ File name: styles.css
   @media (min-width: 992px) {
   form {
       width: 50%;
-      margin: 0 auto;
   }
 }
-.icons {
+.icons a {
   display: inline-block;
   width: 2%;
 }
